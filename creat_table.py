@@ -1,6 +1,6 @@
 import psycopg2
 
-db_name = 'quant_data1'
+db_name = 'quant_data'
 # 连接参数
 conn_params = {
     "dbname": "postgres",
