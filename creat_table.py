@@ -73,8 +73,7 @@ CREATE TABLE IF NOT EXISTS market_data_tick (
     symbol TEXT NOT NULL,
     price NUMERIC(10,4),
     size NUMERIC(20,4),
-    trade_id TEXT,
-    PRIMARY KEY (time, trade_id)
+    PRIMARY KEY (time, symbol)
 );
 """
 
